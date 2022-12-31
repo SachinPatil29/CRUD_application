@@ -1,0 +1,44 @@
+.main{
+    width: 70%;
+    /* margin: 0 auto; */
+}
+input[type=text],
+input[type=email],
+input[type=number], 
+ select {
+
+    width: 40%;
+    padding: 12px 20px;
+    display: block;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+input[type="submit"]{
+    width: 40%;
+    background-color: #4caf5a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: block;
+    border: none;
+    border-radius: 15px;
+    cursor:pointer
+}
+input[type="button"]{
+    width: 40%;
+    background-color: #40453e;
+    color: white;
+    display: block;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 15px;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #45a049;
+}
